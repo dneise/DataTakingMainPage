@@ -37,17 +37,7 @@
 
 == Startup ==
 
->
 
-0. open Smartfact - you can monitor and operate the system from there 
-0. open the gtc-skycamera image and the weather station of Magic (see https://fact-project.org/). More very helpful information like the ING infrared skycam or the TNG dust measurement can be also found there in the section "Weather Info"
-0. open the page http://www.fact-project.org/showlog/index.php (for checking the logfiles)
-  - use your own account for this and not the fact user!
-  - different logs can be checked by adding the name of the program, e.g. http://www.fact-project.org/showlog/?log=dimserver or https://www.fact-project.org/showlog/?log=magiclidar 
-  - alternatively change directory to ~fact/operation and do *follow.sh programname*, e.g. *follow.sh dimserver* (to follow the output of the dimserver which is processing the scripts)
-
-additional information:
-- [[https://www.fact-project.org/logbook/showthread.php?tid=828|Introduction for a VPN session]] gives a helpful introduction for a VPN session to La Palma - you need this to access internatl websites and don't need tunnels to access the vnc-sessions
 - The screen session on newdaq has most programs running
 - See ScreenSessionHelpfulCommands for a list of helpful commands for screen sessions
 - On aux there is a vnc-session for the drivesystem (with the tpoint camera) and on gui one for the old gui. More details on [wiki:TroubleShootingSoftware] To connect to a vnc-session you may use a vncviewer of your choice, e.g. ''vinagre aux:1'' To find out which desktop number to connect to, you can do ''ps aux | grep vnc'' on aux and look for the :X in the command where X is the number of the desktop.
