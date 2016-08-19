@@ -1,13 +1,9 @@
 = Data Taking Procedure - Main Page =
 
-
-== Check List Preparation and Datataking==
-
 == Before first shift: ==
 
-||= Task =||= achieved =||= link/info =||
-|| account in La Palma? ||  || contact Watz, Jens or Dani ||
-|| filled contact info? ||  || [https://www.fact-project.org/logbook/usercp.php?action=profile Profile] in the bottom; http://www.fact-project.org/meetings/Dortmund2014/dorner_status_operations.pdf p31-36 ||
+ * Ask your nearest expert for a computer account in La Palma.
+
 || computer prepared? vpn? vnc? ||  || [https://www.fact-project.org/logbook/showthread.php?tid=828 vpn] vnc[?] ||
 || read Data Taking Manual? ||  || [https://trac.fact-project.org/wiki/DataTakingMainPage Manual] and links therein ||
 
