@@ -37,8 +37,7 @@
 
 == Startup ==
 
-**Please use your private account for data taking. Login as *fact* user only when you really have to access the screen session with the programs, which normally not the case. You can use the *follow.sh programname* to follow the log-file of any program or the web-interface. You can do all necessary operations like starting a script from your user account or smartfact. You can check the container temperature in Munin. Using the
-*fact* account you only risk to interfere unintentionally with data taking by e.g. pressing Ctrl-C in the wrong screen-tab.**
+>
 
 0. open Smartfact - you can monitor and operate the system from there 
 0. open the gtc-skycamera image and the weather station of Magic (see https://fact-project.org/). More very helpful information like the ING infrared skycam or the TNG dust measurement can be also found there in the section "Weather Info"
