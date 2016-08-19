@@ -9,11 +9,6 @@
 
 
 
-== Every night: ==
-
-||= Task =||= what to do for =||= 1. Night =||= 2. Night =||= 3. Night =||= 4. Night =||= 5. Night =||= 6. Night =||= 7. Night =||= 8. Night =||= 9. Night =||
-|||| **Preparation before datataking** ||
-|| read all logbook and shift entries || [https://www.fact-project.org/logbook/forumdisplay.php?fid=2 Logbook] [https://www.fact-project.org/logbook/forumdisplay.php?fid=5 ShiftLog] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 || have a working and charged phone at hand ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 || have important phone numbers printed at hand ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 || Begin one hour before datataking ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
