@@ -9,7 +9,6 @@
 
 == Before every shift: ==
 
-|| enter name in shift calendar? ||  || [https://www.fact-project.org/shift/ ShiftCalendar] ||
 || is contact info up-to-date? || || http://www.fact-project.org/meetings/Dortmund2014/dorner_status_operations.pdf p31-36 ||
 
 
