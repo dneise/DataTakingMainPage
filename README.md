@@ -4,8 +4,6 @@
 
  * Ask your nearest expert for a computer account in La Palma.
 
-|| read Data Taking Manual? ||  || [https://trac.fact-project.org/wiki/DataTakingMainPage Manual] and links therein ||
-
 == Before every shift: ==
 
 ||= Task =||= achieved =||= link/info =||
