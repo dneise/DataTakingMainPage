@@ -4,7 +4,6 @@
 
  * Ask your nearest expert for a computer account in La Palma.
 
-|| computer prepared? vpn? vnc? ||  || [https://www.fact-project.org/logbook/showthread.php?tid=828 vpn] vnc[?] ||
 || read Data Taking Manual? ||  || [https://trac.fact-project.org/wiki/DataTakingMainPage Manual] and links therein ||
 
 == Before every shift: ==
