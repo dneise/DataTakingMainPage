@@ -35,13 +35,6 @@
  * If you cannot park: call an expert.
 
 
-== Startup ==
-
-- problems
-- ORM alerts
-
-See [[TemplateShiftSummary|Template for Shift Summary]]
-
 5. plan the schedule:
 
 === Schedule ===
