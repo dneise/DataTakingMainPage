@@ -37,15 +37,6 @@
 
 == Startup ==
 
-
-
-4. start the Shiftsummary in the logbook:
-
-=== Logbook - Shift summary ===
-
-The shift summary (first entry) has to contain the following information:
-
-- contact details
 - planned schedule
 - achieved schedule
 - problems
