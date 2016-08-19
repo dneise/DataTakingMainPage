@@ -6,10 +6,6 @@
 
 == Before every shift: ==
 
-
-
-|| familiar with the data taking limits? ||  || [https://trac.fact-project.org/wiki/DatatakingLimits Datat Taking Limits] ||
-|| familiar with the flare alert trigger limits? ||  || [http://www.fact-project.org/logbook/showthread.php?tid=3512 Flare Trigger Limits] ||
 || familiar with what to do in an emergency? ||  || /home/fact/Drive/Documentation/ParkTelescopeManually/ParkTelescopeManually.pdf ||
 || telephone numbers for an emergency available on paper?[[BR]] (your co-shifter, experts-on-call, magic) || || expert-on-call info in [https://www.fact-project.org/logbook/forumdisplay.php?fid=5 ShiftLog] shift plan post[[BR]] [https://www.fact-project.org/dch/shiftinfo.php ShiftInfo] for MAGIC[[BR]] [https://www.fact-project.org/logbook/showthread.php?tid=1845 MAGIC ContactInfo] [[BR]] [http://www.magic.iac.es/contacts/ direct MAGIC ContactInfo] ||
 || enter name in shift calendar? ||  || [https://www.fact-project.org/shift/ ShiftCalendar] ||
