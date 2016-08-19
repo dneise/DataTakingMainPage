@@ -4,10 +4,8 @@
 
  * Ask your nearest expert for a computer account in La Palma.
 
-== Before every shift: ==
+== Before every shift: ==th ago
 
-||= Task =||= achieved =||= link/info =||
-|| checked Data Taking Manual for updates? ||  || [https://trac.fact-project.org/wiki/DataTakingMainPage Manual] and links therein (you may use history for checking for updates) ||
 || read logbook of the last nights? ||  || [https://www.fact-project.org/logbook/forumdisplay.php?fid=2 Logbook] ||
 || read shift forum? ||  || [https://www.fact-project.org/logbook/forumdisplay.php?fid=5 ShiftLog] ||
 || familiar with the pages and features of smartfact? ||  || [https://www.fact-project.org/smartfact/#help-fact SmartfactHelp] ||
