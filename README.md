@@ -7,9 +7,6 @@
 
  * Ask your nearest expert for a computer account in La Palma.
 
-== Before every shift: ==
-
-|| is contact info up-to-date? || || http://www.fact-project.org/meetings/Dortmund2014/dorner_status_operations.pdf p31-36 ||
 
 
 == Every night: ==
