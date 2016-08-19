@@ -10,57 +10,30 @@
 
 == On your shift: ==
 
- * Beginn well in advance (1h), so in case of problems, you can call an expert and fix stuff.
+ * Begin well in advance (1h), so in case of problems, you can call an expert and fix stuff.
  * open
   * https://www.fact-project.org/smartfact Smartfact
   * http://www.fact-project.org/showlog
   * http://www.magic.iac.es/site/weather/index.html
  * If weather is good enough to start observation: start Main.js
-  * unlock drive
+  * check: http://fact-project.org/cam/index.php and http://fact-project.org/cam/lidcam.php, then unlock drive
  * Create a new logbook thread 
+ * Note stuff, which I do not understand ... since everything is logged.
+ * After shutdown in the morning: stop Main.js and do the https://www.fact-project.org/Checklist.
 
+== In case of problems ==
 
-|| telescope status || start tpoint CCD (via page 10.0.100.230)  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || check telescope status in [https://www.fact-project.org/cam IR cam] and tpoint CCD (aux) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| container status || check [https://www.fact-project.org/munin/gate/gate/container_temp.html container temperature]  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| weather conditions || write weather conditions (allsky cam and magicweather) in logbook entry ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|||| **Startup** ||
-|| Start Drive || [https://www.fact-project.org/smartfact/#control-drive smartfact drive-control] or PWR_CONTROL/TOGGLE_DRIVE ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| unlock drive || [https://www.fact-project.org/smartfact/#control-drive smartfact drive-control] or DRIVE_CONTROL/UNLOCK ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|||| **Datataking** ||
-|| start datataking script || ''dimctrl --start scripts/Main.js'' or [https://www.fact-project.org/smartfact/#control-main smartfact control] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| write logbook entries ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| monitor the system || document problems or strange behaviour in logbook ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| monitor the weather || document weather conditions in logbook ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| monitor the currents || adapt schedule, if necessary ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| monitor the QLA Website || report interesting results in logbook[[BR]] call Dani or Adrian in case excessrate > limit ||  ||  ||  ||  ||  ||  ||  ||  ||
-|||| **In case of problems** ||
-|| for single runs: add comments to the Run-comment DB || [https://www.fact-project.org/run_db/db/run_comment.php Run-comment DB] ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| first get data taking running again || ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| then document problem in detail || ||  ||  ||  ||  ||  ||  ||  ||  ||
-|||| **Shutdown** ||
-|| stop datataking script || ''dimctrl --stop'' or from [https://www.fact-project.org/smartfact smartfact] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|||| **Check status of telescope** ||
-|| no script running? || ''dimctrl --stop'' or from [https://www.fact-project.org/smartfact smartfact] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| biasvoltage off? || BIAS_CONTROL/SET_ZERO_VOLTAGE ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| trigger off? (ftmctrl should be in state Idle or Valid) || FTM_CONTROL/STOP_TRIGGER ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| telescope status? || check telescope status in IR cam and tpoint CCD[[BR]] (If it is too dark outside switch on the IR-Lights)||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| telescope parked? || [https://www.fact-project.org/smartfact/#control-drive smartfact drive-control] or DRIVE_CONTROL/PARK ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| lid closed? || LID_CONTROL/CLOSE ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| biasctrl disconnected? || BIAS_CONTROL/DISCONNECT ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| logbook entries finished? ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || stop tpoint CCD (via page 10.0.100.230) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| **stop Drive** ||  [https://www.fact-project.org/smartfact/#control-drive smartfact drive-control] or PWR_CONTROL/TOGGLE_DRIVE ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| fill shutdown checklist || [https://www.fact-project.org/Checklist shutdown checklist] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+ * If the Main.js script throws an exception and stops ... note down the trace back and restart Main.js
+ * Do not do this crazily often, if restarting does not help:
+   * note that you shutdown early due to problems.
+   * park the telescope and shutdown the bias voltage.
+   * close the lid
+   * maybe write a mail trough fact-online, so experts are really aware there is work for them.
+   * go to sleep
+ * If you cannot close the lid: leave it open.
+ * If you cannot shutdown the bias voltage: call an expert.
+ * If you cannot park: call an expert.
 
-
-**Remarks** 
-
-* Read the complete manual, not only the check list!
-* Prepare for your shift well in advance!
-* Start well in advance so that you still have time to contact the experts in case of problems or questions. 
-
-----
 
 == Startup ==
 
