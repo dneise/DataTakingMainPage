@@ -7,7 +7,7 @@
 == Before every shift: ==
 
 
-|| familiar with the pages and features of smartfact? ||  || [https://www.fact-project.org/smartfact/#help-fact SmartfactHelp] ||
+
 || familiar with the data taking limits? ||  || [https://trac.fact-project.org/wiki/DatatakingLimits Datat Taking Limits] ||
 || familiar with the flare alert trigger limits? ||  || [http://www.fact-project.org/logbook/showthread.php?tid=3512 Flare Trigger Limits] ||
 || familiar with what to do in an emergency? ||  || /home/fact/Drive/Documentation/ParkTelescopeManually/ParkTelescopeManually.pdf ||
