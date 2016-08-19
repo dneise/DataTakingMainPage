@@ -3,10 +3,7 @@
 **Remarks** 
 
 * This is just a short introduction/summary for doing a shift. For more informations (and for becoming an expert) follow the links!!
-* The system is being automatized more and more, but this doesn't mean that there is nothing to do anymore. **Monitoring** the system is **very important**. Check especially: 
- * system status: [https://www.fact-project.org/smartfact Smartfact]
- * weather (links on [https://www.fact-project.org/ main page])
- * quick look analysis: [http://fact-project.org/monitoring QLA] ([https://www.fact-project.org/dch/newqla/qla.php new version] - still in test phase)
+
 
 ----
 
