@@ -1,8 +1,5 @@
 = Data Taking Procedure - Main Page =
 
-**Remarks** 
-
-* This is just a short introduction/summary for doing a shift. For more informations (and for becoming an expert) follow the links!!
 
 
 ----
