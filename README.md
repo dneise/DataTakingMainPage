@@ -1,12 +1,85 @@
 = Data Taking Procedure - Main Page =
 
 
-
-----
-
 == Check List Preparation and Datataking==
 
-DataTakingCheckList: Check list for a whole shift (preparation and all nights). 
+== Before first shift: ==
+
+||= Task =||= achieved =||= link/info =||
+|| account in La Palma? ||  || contact Watz, Jens or Dani ||
+|| filled contact info? ||  || [https://www.fact-project.org/logbook/usercp.php?action=profile Profile] in the bottom; http://www.fact-project.org/meetings/Dortmund2014/dorner_status_operations.pdf p31-36 ||
+|| computer prepared? vpn? vnc? ||  || [https://www.fact-project.org/logbook/showthread.php?tid=828 vpn] vnc[?] ||
+|| read Data Taking Manual? ||  || [https://trac.fact-project.org/wiki/DataTakingMainPage Manual] and links therein ||
+
+== Before every shift: ==
+
+||= Task =||= achieved =||= link/info =||
+|| checked Data Taking Manual for updates? ||  || [https://trac.fact-project.org/wiki/DataTakingMainPage Manual] and links therein (you may use history for checking for updates) ||
+|| read logbook of the last nights? ||  || [https://www.fact-project.org/logbook/forumdisplay.php?fid=2 Logbook] ||
+|| read shift forum? ||  || [https://www.fact-project.org/logbook/forumdisplay.php?fid=5 ShiftLog] ||
+|| familiar with the pages and features of smartfact? ||  || [https://www.fact-project.org/smartfact/#help-fact SmartfactHelp] ||
+|| familiar with the data taking limits? ||  || [https://trac.fact-project.org/wiki/DatatakingLimits Datat Taking Limits] ||
+|| familiar with the flare alert trigger limits? ||  || [http://www.fact-project.org/logbook/showthread.php?tid=3512 Flare Trigger Limits] ||
+|| familiar with what to do in an emergency? ||  || /home/fact/Drive/Documentation/ParkTelescopeManually/ParkTelescopeManually.pdf ||
+|| telephone numbers for an emergency available on paper?[[BR]] (your co-shifter, experts-on-call, magic) || || expert-on-call info in [https://www.fact-project.org/logbook/forumdisplay.php?fid=5 ShiftLog] shift plan post[[BR]] [https://www.fact-project.org/dch/shiftinfo.php ShiftInfo] for MAGIC[[BR]] [https://www.fact-project.org/logbook/showthread.php?tid=1845 MAGIC ContactInfo] [[BR]] [http://www.magic.iac.es/contacts/ direct MAGIC ContactInfo] ||
+|| enter name in shift calendar? ||  || [https://www.fact-project.org/shift/ ShiftCalendar] ||
+|| is contact info up-to-date? || || http://www.fact-project.org/meetings/Dortmund2014/dorner_status_operations.pdf p31-36 ||
+
+
+== Every night: ==
+
+||= Task =||= what to do for =||= 1. Night =||= 2. Night =||= 3. Night =||= 4. Night =||= 5. Night =||= 6. Night =||= 7. Night =||= 8. Night =||= 9. Night =||
+|||| **Preparation before datataking** ||
+|| read all logbook and shift entries || [https://www.fact-project.org/logbook/forumdisplay.php?fid=2 Logbook] [https://www.fact-project.org/logbook/forumdisplay.php?fid=5 ShiftLog] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| have a working and charged phone at hand ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| have important phone numbers printed at hand ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| Begin one hour before datataking ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| open || [https://www.fact-project.org/smartfact Smartfact] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || [http://www.fact-project.org/showlog showlog.php] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || weatherinfo see [https://www.fact-project.org mainpage] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| create new thread in [https://www.fact-project.org/logbook/forumdisplay.php?fid=2 logbook] || start Shift summary ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| connect to La Palma ||  establish VPN-connection ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || ssh to newdaq ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || screen on newdaq ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || vnc to gui ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || vnc to aux ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| plan schedule || edit schedule file (e.g. schedule.js) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || don't forget Startup and Shutdown ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || insert schedule to DB (from newdaq) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || write planned schedule in shift summary ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| telescope status || start tpoint CCD (via page 10.0.100.230)  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || check telescope status in [https://www.fact-project.org/cam IR cam] and tpoint CCD (aux) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| container status || check [https://www.fact-project.org/munin/gate/gate/container_temp.html container temperature]  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| weather conditions || write weather conditions (allsky cam and magicweather) in logbook entry ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|||| **Startup** ||
+|| Start Drive || [https://www.fact-project.org/smartfact/#control-drive smartfact drive-control] or PWR_CONTROL/TOGGLE_DRIVE ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| unlock drive || [https://www.fact-project.org/smartfact/#control-drive smartfact drive-control] or DRIVE_CONTROL/UNLOCK ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|||| **Datataking** ||
+|| start datataking script || ''dimctrl --start scripts/Main.js'' or [https://www.fact-project.org/smartfact/#control-main smartfact control] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| write logbook entries ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| monitor the system || document problems or strange behaviour in logbook ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| monitor the weather || document weather conditions in logbook ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| monitor the currents || adapt schedule, if necessary ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| monitor the QLA Website || report interesting results in logbook[[BR]] call Dani or Adrian in case excessrate > limit ||  ||  ||  ||  ||  ||  ||  ||  ||
+|||| **In case of problems** ||
+|| for single runs: add comments to the Run-comment DB || [https://www.fact-project.org/run_db/db/run_comment.php Run-comment DB] ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| first get data taking running again || ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| then document problem in detail || ||  ||  ||  ||  ||  ||  ||  ||  ||
+|||| **Shutdown** ||
+|| stop datataking script || ''dimctrl --stop'' or from [https://www.fact-project.org/smartfact smartfact] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|||| **Check status of telescope** ||
+|| no script running? || ''dimctrl --stop'' or from [https://www.fact-project.org/smartfact smartfact] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| biasvoltage off? || BIAS_CONTROL/SET_ZERO_VOLTAGE ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| trigger off? (ftmctrl should be in state Idle or Valid) || FTM_CONTROL/STOP_TRIGGER ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| telescope status? || check telescope status in IR cam and tpoint CCD[[BR]] (If it is too dark outside switch on the IR-Lights)||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| telescope parked? || [https://www.fact-project.org/smartfact/#control-drive smartfact drive-control] or DRIVE_CONTROL/PARK ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| lid closed? || LID_CONTROL/CLOSE ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| biasctrl disconnected? || BIAS_CONTROL/DISCONNECT ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| logbook entries finished? ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+||  || stop tpoint CCD (via page 10.0.100.230) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| **stop Drive** ||  [https://www.fact-project.org/smartfact/#control-drive smartfact drive-control] or PWR_CONTROL/TOGGLE_DRIVE ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+|| fill shutdown checklist || [https://www.fact-project.org/Checklist shutdown checklist] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
+
 
 **Remarks** 
 
