@@ -9,8 +9,6 @@
 
 
 
-|| have a working and charged phone at hand ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| have important phone numbers printed at hand ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 || Begin one hour before datataking ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 || open || [https://www.fact-project.org/smartfact Smartfact] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 ||  || [http://www.fact-project.org/showlog showlog.php] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
