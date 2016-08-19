@@ -37,8 +37,6 @@
 
 == Startup ==
 
-- planned schedule
-- achieved schedule
 - problems
 - ORM alerts
 
