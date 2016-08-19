@@ -1,13 +1,14 @@
 = Data Taking Procedure - Main Page =
 
+ * In case of an emergency: Call your nearest expert. You often have no rights to repair something.
+ * Download and print this list of numbers in case your network fails during your shift. --> a link to a single pdf.
+
 == Before first shift: ==
 
  * Ask your nearest expert for a computer account in La Palma.
 
 == Before every shift: ==
 
-|| familiar with what to do in an emergency? ||  || /home/fact/Drive/Documentation/ParkTelescopeManually/ParkTelescopeManually.pdf ||
-|| telephone numbers for an emergency available on paper?[[BR]] (your co-shifter, experts-on-call, magic) || || expert-on-call info in [https://www.fact-project.org/logbook/forumdisplay.php?fid=5 ShiftLog] shift plan post[[BR]] [https://www.fact-project.org/dch/shiftinfo.php ShiftInfo] for MAGIC[[BR]] [https://www.fact-project.org/logbook/showthread.php?tid=1845 MAGIC ContactInfo] [[BR]] [http://www.magic.iac.es/contacts/ direct MAGIC ContactInfo] ||
 || enter name in shift calendar? ||  || [https://www.fact-project.org/shift/ ShiftCalendar] ||
 || is contact info up-to-date? || || http://www.fact-project.org/meetings/Dortmund2014/dorner_status_operations.pdf p31-36 ||
 
