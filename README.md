@@ -2,27 +2,24 @@
 
  * In case of an emergency: Call your nearest expert. You often have no rights to repair something.
  * Download and print this list of numbers in case your network fails during your shift. --> a link to a single pdf.
+ * You are not responsible for the observation schedule, the schedule is filled automatically.
 
 == Before first shift: ==
 
  * Ask your nearest expert for a computer account in La Palma.
 
+== On your shift: ==
+
+ * Beginn well in advance (1h), so in case of problems, you can call an expert and fix stuff.
+ * open
+  * https://www.fact-project.org/smartfact Smartfact
+  * http://www.fact-project.org/showlog
+  * http://www.magic.iac.es/site/weather/index.html
+ * If weather is good enough to start observation: start Main.js
+  * unlock drive
+ * Create a new logbook thread 
 
 
-|| Begin one hour before datataking ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| open || [https://www.fact-project.org/smartfact Smartfact] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || [http://www.fact-project.org/showlog showlog.php] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || weatherinfo see [https://www.fact-project.org mainpage] ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| create new thread in [https://www.fact-project.org/logbook/forumdisplay.php?fid=2 logbook] || start Shift summary ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| connect to La Palma ||  establish VPN-connection ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || ssh to newdaq ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || screen on newdaq ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || vnc to gui ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || vnc to aux ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-|| plan schedule || edit schedule file (e.g. schedule.js) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || don't forget Startup and Shutdown ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || insert schedule to DB (from newdaq) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
-||  || write planned schedule in shift summary ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 || telescope status || start tpoint CCD (via page 10.0.100.230)  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 ||  || check telescope status in [https://www.fact-project.org/cam IR cam] and tpoint CCD (aux) ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
 || container status || check [https://www.fact-project.org/munin/gate/gate/container_temp.html container temperature]  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||
