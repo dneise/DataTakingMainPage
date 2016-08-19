@@ -38,9 +38,6 @@
 == Startup ==
 
 
-- The screen session on newdaq has most programs running
-- See ScreenSessionHelpfulCommands for a list of helpful commands for screen sessions
-- On aux there is a vnc-session for the drivesystem (with the tpoint camera) and on gui one for the old gui. More details on [wiki:TroubleShootingSoftware] To connect to a vnc-session you may use a vncviewer of your choice, e.g. ''vinagre aux:1'' To find out which desktop number to connect to, you can do ''ps aux | grep vnc'' on aux and look for the :X in the command where X is the number of the desktop.
 
 4. start the Shiftsummary in the logbook:
 
