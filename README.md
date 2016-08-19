@@ -35,21 +35,6 @@
  * If you cannot park: call an expert.
 
 
-5. plan the schedule:
-
-=== Schedule ===
-
-The observation schedule is filled on the [[http://www.fact-project.org/schedule/|shedule web site]]. A automatic observation scheduler fills in a first educated guess for each night. 
-The reasoning of the automated observation scheduler can be found [[http://www.fact-project.org/dch/scheduling.php|here]], by pressing the '+' sign next to 'Suggested Schedule'.
-
-- We take a look at the suggested schedule and report and modify the schedule in case the automatic observation scheduler obviously fails.
-
-In addition to the educated guess of the automatic observation scheduler, we need to fill in a ratescan observation.
-
-- We add a ratescan observation to the [[http://www.fact-project.org/schedule/|schedule]] which should take place around mid night.
-- A ratescan should be scheduled every third night only.
-- The ratescan should be done, while pointing to the next source on schedule. This is different than the last 5 years. We want to be able to compare normal ratescans and ratescans on data.
-
  
 
 To gain most out of the multi wavelength observations, we want to adopt our observation schedule to overlap with the [[http://swift.gsfc.nasa.gov/|SWIFT]] [[http://www.fact-project.org/scheduling/2016/05/24/swift.schedule.formated|observation schedule]]
