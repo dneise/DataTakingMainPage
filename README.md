@@ -70,12 +70,6 @@ If you want to deal with the situation yourself, you can try:
 Then fill out the shutdown Checklist: http://fact-project.org/Checklist/
 
 
-- for a [[SpecialRatescans|ratescan]] please insert the following informations:
- - position (Ra, Dec)
- - Zd angle
- - screenshot of the [[SpecialRatescans|ratescan]] (in smartfact or in the GUI)
- - if a ratescan looks strange, please schedule another one
- - the quality of a ratescan can be checked at https://www.fact-project.org/dch/ratescans.php
 - if a problem occurs, please write down following:
  - what happens, please do not only post the error message, but also some lines above
  - what you did, to solve the problem
