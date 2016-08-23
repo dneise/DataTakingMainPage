@@ -15,8 +15,14 @@
   * https://www.fact-project.org/smartfact Smartfact
   * http://www.fact-project.org/showlog
   * http://www.magic.iac.es/site/weather/index.html
- * If weather is good enough to start observation: start Main.js
-  * check: http://fact-project.org/cam/index.php and http://fact-project.org/cam/lidcam.php, then unlock drive
+ * Check some things before you start:
+  * Is the weather ok to start? check:
+   * http://fact-project.org/cam/index.php
+   * http://fact-project.org/cam/lidcam.php
+  * Is container too hot? Above 40°C the drive might make problems, do not start the drive then.
+   * check it on smartfact; here: http://fact-project.org/smartfact/index.html?sound#temperature
+
+ 
  * Create a new logbook thread 
  * Note stuff, which I do not understand ... since everything is logged.
  * After shutdown in the morning: stop Main.js and do the https://www.fact-project.org/Checklist.
@@ -38,9 +44,6 @@
  
 
 6. 
-0. Check status in the container (via the program temperature or munin)
- - if the temperature in the container exceed 40°C don't start the drive
- - wait until the temperature decreases below 40°C, maybe you can ask someone on La Palma to open the container door
 0. Check weather conditions, by checking the informations from the magicweatherstation, from the tng dust measurement and from the GTC allsky camera
    - insert the informations (including the image from the allsky cam) in the logbook entry
 0. switch on drive and unlock it: either from smartfact or from dimctrl:
