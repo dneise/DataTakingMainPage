@@ -70,7 +70,6 @@ If you want to deal with the situation yourself, you can try:
 Then fill out the shutdown Checklist: http://fact-project.org/Checklist/
 
 
-- Datataking has first priority, so first solve an occuring problem, then write the logbook entries
 - please fill the logbook as soon as possible (so first Problem solving, then immediatly logbook entries), so that the timestamp of the entries are correct
 - make a single entry for every measurement you do (one entry for every source, for every technical measurement ...)
 - insert following informations
