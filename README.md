@@ -41,18 +41,12 @@
  * If you cannot park: call an expert.
 
 
- 
+== Startup via SmartFact ==
 
-6. 
-0. Check weather conditions, by checking the informations from the magicweatherstation, from the tng dust measurement and from the GTC allsky camera
-   - insert the informations (including the image from the allsky cam) in the logbook entry
-0. switch on drive and unlock it: either from smartfact or from dimctrl:
-   - start dimctrl client in any terminal: ''/home/fact/operation/**dimctrl**''
-   - Power Drive:
-     - PWR_CONTROL/TOGGLE_DRIVE
-   - unlock Drive:
-     - DRIVE_CONTROL/UNLOCK
-   - stop dimctrl: .q
+ 1. Toggle Drive
+ 2. Unlock Drive
+ 3. Start Main.js 
+
 0. All other task of the startup are performed by the Main.js script (see first point of Datataking)
  - The list of the ManuallyStartup is currently **not** needed
  - Note that once the script is started, there is no need to stop it to change the schedule. You can change the schedule at any time. You can even start Main.js before you update the schedule (but make sure the last schedule in the database is at least 10 hours ago.
