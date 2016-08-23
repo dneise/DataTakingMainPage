@@ -80,21 +80,6 @@ TemplateQuotingLogFiles
 
 ----
 
-== Trouble Shooting ==
-
-- **never** stop a not hanging program with ''ctrl+c''
- - when a restart of the program is really necessary use .q instead
- - if the program is started without console, you can try to restart with *dimctrl --restart SERVER_NAME* (SERVER_NAME might, e.g., by FAD_CONTROL) or to exit do *dimctrl --cmd "SERVER_NAME/EXIT 0"*
- - restarting a program is in most cases not a solution and only increase the risk to trigger more problems. So avoid restarting programs as long as possible 
-- TroubleShooting
-- List with known Hardware problems: https://trac.fact-project.org/wiki/KnownProblems)
-
-Most common problems:
-
-- [[troubleshooting#tsfadloss FAD losses]]
-- [[TroubleShootingDrivectrl#DriveControlError | Drive Error]]
-
-----
 
 == Shutdown ==
 
