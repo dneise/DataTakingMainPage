@@ -48,29 +48,6 @@
  3. Start Main.js 
 
 
-== Datataking ==
-
-- start Datataking script Main.js from smartfact or from a bash with following command in ''/home/fact/operation'':
- - dimctrl --start scripts/Main.js
-- if you have to start a dim-script, java-script or command for yourself, can call it with following command from a bash:
- - dimctrl --batch !ScriptsForDimCtrl/<scriptname>.dim (for a dim script)
- - dimctrl --start scripts/<scriptname>.js (for a javascript script)
- - dimctrl --quit --command ".js scripts/updateSchedule.js" (javascript via command)
- - dimctrl --quit --command "DRIVE_CONTROL/UNLOCK" (single command)
-- Monitor the system be aware of the DatatakingLimits
-- If you have to track manually (the script sends the tracking commands, so the manually tracking is **not** needed normally), have a look at the CurrentPointingPositions
-- To control the hardware remotely, please have a look at RemoteControlHardware
-- For details of the different procedures of the datataking, see the DatatakingProcedures
- - be aware that all steps mentioned there are currently proceeded by the scripts and it is **not** needed to perform them manually.
-- You can find the list of the taken runs at: https://www.fact-project.org/smartfact/#observations
-- Monitor the [[http://fact-project.org/dch/qla.php?expert=yes | QLA-website]] and give an alert in case of high excess rates
- - look in the [[http://www.fact-project.org/logbook/forumdisplay.php?fid=5 | Shift-Forum]] to get a trigger criterium for an alert
-- don't forget to write the corresponding logbook entries and the comments in the run-comment DB:
-
-=== Logbook - Datataking entries ===
-
-General remarks:
-
 - Datataking has first priority, so first solve an occuring problem, then write the logbook entries
 - please fill the logbook as soon as possible (so first Problem solving, then immediatly logbook entries), so that the timestamp of the entries are correct
 - make a single entry for every measurement you do (one entry for every source, for every technical measurement ...)
