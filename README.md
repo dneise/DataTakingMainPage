@@ -48,6 +48,28 @@
  3. Start Main.js 
 
 
+== Stop via SmartFact ==
+
+After successful automatic shutdown:
+  * parked
+  * lid closed
+  * bias voltage off
+  * drive off
+
+you simply shut off Main.js
+
+If there was an exception during automatic shutdown restarting Main.js sometimes does not help very much.
+Many experts are awake at this moment, so simply call them.
+If you want to deal with the situation yourself, you can try:
+
+  * Park manually (drive must be powered and unlocked for this)
+  * Close lid again (maybe open and close)
+  * if parked, but the drive is not off, just toggle drive again.
+
+
+Then fill out the shutdown Checklist: http://fact-project.org/Checklist/
+
+
 - Datataking has first priority, so first solve an occuring problem, then write the logbook entries
 - please fill the logbook as soon as possible (so first Problem solving, then immediatly logbook entries), so that the timestamp of the entries are correct
 - make a single entry for every measurement you do (one entry for every source, for every technical measurement ...)
@@ -65,10 +87,6 @@
  - what you did, to solve the problem
  - how log you need to solve the problem
 
-TemplateNormalDatatakingSet
-
-TemplateQuotingLogFiles
-
 === Run comment DB - Entries ===
 
 - **problems / information for single runs have to be inserted in the [[https://www.fact-project.org/run_db/db/run_comment.php|run-comment DB]]**
@@ -77,32 +95,3 @@ TemplateQuotingLogFiles
  - tracking stops
  - car flash
 
-
-----
-
-
-== Shutdown ==
-
-[[ManuallyShutdown | manual shutdown procedure, in case it cannot be done with Main.js  ]]
-
-0. After the shutdown task in the schedule was proceeded you have to do the the following task to finish the shutdown:
-0. stop datataking script with following command from a bash:
- - dimctrl --stop
-0. make sure that
- - no script is running
- - the bias is off
- - the trigger is off
- - the lid is closed
-    - check TPoint Camera
-    - if it is too dark outside you can switch on the IR-Lights via the [[https://fact-project.org/cam/index.php|FACT IR-Webcam page]]
-    - stop TPoint Camera after check (via the page 10.0.100.230 from the internal network)
- - the telescope is parked
-   - check [[https://fact-project.org/cam/index.php|IR Camera]]
- - biasctrl disconnected
- - all logbook entries are finished
-0. stop the drive by:
- - in dimctrl: PWR_CONTROL/TOGGLE_DRIVE
-0. Please fill out the shutdown Checklist: http://fact-project.org/Checklist/
- - make sure you have already chosen and informed someone to check you shutdown everything ok: use them in the "Nominated Checker's Email" field.
-
-If you have to shutdown the hardware on the island, please look at HardwareManuallyShutdown
