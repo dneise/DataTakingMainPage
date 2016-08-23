@@ -70,11 +70,6 @@ If you want to deal with the situation yourself, you can try:
 Then fill out the shutdown Checklist: http://fact-project.org/Checklist/
 
 
-- please fill the logbook as soon as possible (so first Problem solving, then immediatly logbook entries), so that the timestamp of the entries are correct
-- make a single entry for every measurement you do (one entry for every source, for every technical measurement ...)
-- insert following informations
- - weather: skybrightness, clouds, calima, ... i.e. any information that cannot be retrieved from the auxiliary files
- - please report also mistakes or missing information in the manuals so that they can be fixed/added
 - for a [[SpecialRatescans|ratescan]] please insert the following informations:
  - position (Ra, Dec)
  - Zd angle
