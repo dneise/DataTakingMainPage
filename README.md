@@ -87,11 +87,3 @@ Then fill out the shutdown Checklist: http://fact-project.org/Checklist/
  - what you did, to solve the problem
  - how log you need to solve the problem
 
-=== Run comment DB - Entries ===
-
-- **problems / information for single runs have to be inserted in the [[https://www.fact-project.org/run_db/db/run_comment.php|run-comment DB]]**
- - these are for example:
- - fad losses
- - tracking stops
- - car flash
-
