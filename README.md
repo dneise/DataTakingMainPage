@@ -29,6 +29,14 @@
 
 == In case of problems ==
 
+ First an foremost. You are a shifter, not an expert, so in case the automatic procedures fail
+ and there is a problem, you might not be able to solve it.
+ If you can't resume data taking, then park the telescope manually and go to bed.
+ If you can't park, call an expert.
+
+ If a problem occured, and you were able to solve it, e.g. by restarting Main.js
+ please note the error message in the logbook and what you did to solve the problem.
+
  * If the Main.js script throws an exception and stops ... note down the trace back and restart Main.js
  * Do not do this crazily often, if restarting does not help:
    * note that you shutdown early due to problems.
@@ -68,10 +76,3 @@ If you want to deal with the situation yourself, you can try:
 
 
 Then fill out the shutdown Checklist: http://fact-project.org/Checklist/
-
-
-- if a problem occurs, please write down following:
- - what happens, please do not only post the error message, but also some lines above
- - what you did, to solve the problem
- - how log you need to solve the problem
-
