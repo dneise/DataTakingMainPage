@@ -37,7 +37,7 @@
 
  
 
-6. Check status of the Telescope in the TPoint Camera (in cosy on aux; switchable on 10.0.1002.30 La Palma Network (-> you need vpn connection)) or Lid Camera http://fact-project.org/cam/lidcam.php and the [[https://fact-project.org/cam/index.php|IR Camera]]
+6. 
 0. Check status in the container (via the program temperature or munin)
  - if the temperature in the container exceed 40°C don't start the drive
  - wait until the temperature decreases below 40°C, maybe you can ask someone on La Palma to open the container door
