@@ -7,23 +7,26 @@
 ## Your Shift:
 
  * Begin well in advance (1h), so in case of problems, you can call an expert and fix stuff.
- * open
+ * open:
+  * [tonights schedule](https://www.fact-project.org/schedule/) 
   * [smartfact](https://www.fact-project.org/smartfact)
   * [the logfiles](http://www.fact-project.org/showlog)
   * [the weather](http://www.magic.iac.es/site/weather/index.html)
  * Check some things before you start:
-  - [ ] Is [the weather](http://www.magic.iac.es/site/weather/index.html) ok to start?
-  - [ ] Does [the telescope](http://fact-project.org/cam/index.php) look okay?
-  - [ ] Does [the lid](http://fact-project.org/cam/lidcam.php) look okay?
-  - [ ] Is [the container temperature](http://fact-project.org/smartfact/index.html?sound#temperature) lower than 40°C?
+  * Is [the weather](http://www.magic.iac.es/site/weather/index.html) ok to start?
+  * Does [the telescope](http://fact-project.org/cam/index.php) look okay?
+  * Does [the lid](http://fact-project.org/cam/lidcam.php) look okay?
+  * Is [the container temperature](http://fact-project.org/smartfact/index.html?sound#temperature) lower than 40°C?
  * Create a [new logbook thread](https://www.fact-project.org/logbook/newthread.php?fid=2)
 
- * Start up the telescope
-  1. Toggle Drive
-  2. Unlock Drive
-  3. Start Main.js 
+ * When it is dark enough and all is clear: Start up the telescope
+  1. Toggle Drive   [How?](https://github.com/404)
+  2. Unlock Drive   [How?](https://github.com/404)
+  3. Start Main.js   [How?](https://github.com/404) 
  
- * Observe ...
+ * Observe
+  * Take notes in the logbook [How?](https://github.com/404) 
+ 
  * Shutdown
 
   1. After successful automatic shutdown, simply shut off Main.js and fill out [the Checklist](http://fact-project.org/Checklist/)
@@ -36,14 +39,12 @@
    * then fill [the Checklist](http://fact-project.org/Checklist/)
 
  
-## In case of problems - No Problems
+## In case of problems - No Panic
 
  First an foremost. You are a shifter, not an expert, so in case the automatic procedures fail
  and there is a problem, you might not be able to solve it.
- If you can't resume data taking, then park the telescope manually and go to bed.
+ If you can't resume data taking, then [park the telescope](https://github.com/404) and go to bed.
  If you can't park, call an expert.
-
- If a problem occured, and you were able to solve it note the error message in the logbook and what you did to solve the problem.
 
  If the Main.js script throws an exception and stops ... note down the trace back and restart Main.js. Do not do this crazily often, if restarting does not help:
    * note that you shutdown early due to problems.
