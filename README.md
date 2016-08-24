@@ -36,8 +36,9 @@
 
   2. If there was an exception during automatic shutdown, restarting Main.js sometimes does not help very much. Many experts are awake at this moment, so simply call them. If you want to deal with the situation yourself, you can try do do some [manual interventions](ManualIntervention.md)
 
-  3. Stop the shifthelper, i.e. Ctrl-C in the shell where it is running.
+  3. Stop the `shifthelper` with `Ctrl-C`
   4. [Stop Main.js](ManualIntervention.md#stop-any-running-script)
+  5. Stop the `la_palma_overvie` with `Ctrl-C`
 
  
 ## In case of problems - No Panic
