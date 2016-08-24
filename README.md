@@ -6,9 +6,8 @@
  
 ## Your Shift:
 
- * Begin well in advance (1h), so in case of problems, you can call an expert and fix stuff.
+ * Begin about 1h before startup in [tonights schedule](https://www.fact-project.org/schedule/), so in case of problems, you can call an expert and fix stuff.
  * open:
-  * [tonights schedule](https://www.fact-project.org/schedule/) 
   * [smartfact](https://www.fact-project.org/smartfact)
   * [the logfiles](http://www.fact-project.org/showlog)
   * [the weather](http://www.magic.iac.es/site/weather/index.html)
