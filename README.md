@@ -3,7 +3,7 @@
 ## First Time? 
  * Ask your nearest expert for a computer account in La Palma.
  * Print the [list of important phone numbers](https://trac.fact-project.org/wiki/Protected/ContactInfo).
- * install [the shifthelper](https://github.com/fact-project/shifthelper/) (recommendation: install [Anaconda](https://www.continuum.io/downloads)
+ * install [the shifthelper](https://github.com/fact-project/shifthelper/) - recommended: install [Anaconda](https://www.continuum.io/downloads)
  * install [la palma overview](https://github.com/fact-project/la_palma_overview)
  * (if you like:) install [Telegram](https://telegram.org/) on your phone or the [Desktop apps](https://telegram.org/apps)
 
