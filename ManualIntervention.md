@@ -6,7 +6,7 @@ Sometimes it is actually parked but not quite (Position not reached in so and so
 
 It's pretty easy:
 
- * Make sure no script is currently running, i.e. `Dim Control` appears `Idle` in [system status](http://fact-project.org/smartfact/index.html#status)
+ * [Make sure no script is running](ManualIntervention.md#stop-any-running-script)
  * Start the dedicated `Stop Telescope` script [here](http://fact-project.org/smartfact/index.html?#dodrivepark)
 
 If it doesn't work, maybe the automagic shutdown already went as far as:
@@ -29,8 +29,7 @@ please do not hesitate to call an expert during the night. The expert will take 
  If you need to close the lid again, maybe first make sure it is really not closed.
  Switch on the IR Leds of the IR cam and have a look at the Lid cam.
  
- * Make sure no script is currently running, i.e. `Dim Control` appears `Idle` in [system status](http://fact-project.org/smartfact/index.html#status)
-  * Stop any running script by pressing the little x in the lower right corner of smartfact.
+ * [Make sure no script is running](ManualIntervention.md#stop-any-running-script)
  * You can control the Lid manually [here](http://fact-project.org/smartfact/index.html?#control-lid)
 
  ## If this does not work:
