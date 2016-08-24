@@ -48,6 +48,12 @@ If the telescope is parked and the Lid is closed, there is usually no problem in
 Go to bed and make sure to call an expert in the morning. There are many ways to cutting the power to this system, so an expert will find a way to kill the power here.
 No problem.
 
+# Start Main.js
+
+You can only start a script, when currently no script is running, see [Stop any running script](ManualIntervention.md#stop-any-running-script).
+To start Main.js go [here](http://fact-project.org/smartfact/index.html?#control-main) and click on the [tiny little play button `>`](smartfact_lower_right_corner_play.png).
+
+
 # Stop any running script
 
 You can stop any currently running script by pressing the little white X ![the little white X](smartfact_lower_right_corner.png) on [any smart fact page](http://fact-project.org/smartfact/index.html).
