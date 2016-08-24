@@ -41,6 +41,9 @@
    * If parked, but the drive is not off, just [toggle drive again](http://fact-project.org/smartfact/index.html?#control-drive)
    * then fill [the Checklist](http://fact-project.org/Checklist/)
 
+  3. Stop the shifthelper, i.e. Ctrl-C in the shell where it is running.
+  4. [Stop Main.js](ManualIntervention.md#stop-any-running-script)
+
  
 ## In case of problems - No Panic
 
