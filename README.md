@@ -46,15 +46,4 @@
  If you can't resume data taking, then [park the telescope](https://github.com/404) and go to bed.
  If you can't park, call an expert.
 
- If the Main.js script throws an exception and stops ... note down the trace back and restart Main.js. Do not do this crazily often, if restarting does not help:
-   * note that you shutdown early due to problems.
-   * park the telescope and shutdown the bias voltage.
-   * close the lid
-   * maybe write a mail trough fact-online, so experts are really aware there is work for them.
-   * go to bed
- 
- * If you cannot close the lid: leave it open.
- * If you cannot shutdown the bias voltage: call an expert.
- * If you cannot park: call an expert.
-
-
+ If the Main.js script throws an exception and stops ... note down the trace back and restart Main.js. Do not do this crazily often, if restarting does not help: park and go to bed
