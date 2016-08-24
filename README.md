@@ -7,6 +7,14 @@
  * install [la palma overview](https://github.com/fact-project/la_palma_overview)
  * (if you like:) install [Telegram](https://telegram.org/) on your phone or the [Desktop apps](https://telegram.org/apps)
 
+## Current Problems:
+
+### Lid Actuators Hall Sensors broken - State Inconsistent
+
+The Hall sensors of our Lid Actuators are broken and deliver random numbers. Luckily at the moment these numbers are fixed values. This is no problems since the motors also have end switches buildt into them and a current limit checked by the controlling arduino. So for opening and closing we simply drive them until either the endswitch is hit (current falls to zero) or the lid is pressed nicely shut (current rises until limit is reached). 
+However the Lid Arduino software does not know about this and sometimes complains. This results in a `Lid control` state called `Inconsistent` on the [status page](http://fact-project.org/smartfact/index.html?#status).
+The automatic control software `Main.js` knows that `Incosistent` equals `Closed` and does not care. But sometimes people care. So please simple ignore this.
+
 ## Your Shift:
 
  * Begin about 1h before startup in [tonights schedule](https://www.fact-project.org/schedule/), so in case of problems, you can call an expert and fix stuff.
