@@ -22,9 +22,9 @@
  * Create a [new logbook thread](https://www.fact-project.org/logbook/newthread.php?fid=2)
 
  * When it is dark enough and all is clear: Start up the telescope
-  1. Toggle Drive   [How?](https://github.com/404)
-  2. Unlock Drive   [How?](https://github.com/404)
-  3. Start Main.js   [How?](https://github.com/404)
+  1. Toggle Drive   [How?](http://fact-project.org/smartfact/index.html?#control-drive)
+  2. Unlock Drive   [How?](http://fact-project.org/smartfact/index.html?#control-drive)
+  3. Start Main.js   [How?](http://fact-project.org/smartfact/index.html?#control-main)
   4. Start the `shifthelper <your phone number>` [How?](https://github.com/fact-project/shifthelper/#use) [Why?](https://github.com/404)
  
  * Observe
