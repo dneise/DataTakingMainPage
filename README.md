@@ -34,12 +34,7 @@
 
   1. After successful automatic shutdown, simply shut off Main.js and fill out [the Checklist](http://fact-project.org/Checklist/)
 
-  2. If there was an exception during automatic shutdown, restarting Main.js sometimes does not help very much. Many experts are awake at this moment, so simply call them. If you want to deal with the situation yourself, you can try:
-
-   * [Park manually](ManualIntervention.md#parking-the-telescope)
-   * [Close lid](ManualIntervention.md#closing-the-lid)
-   * If parked, but the drive is not off, just [toggle drive again](http://fact-project.org/smartfact/index.html?#control-drive)
-   * then fill [the Checklist](http://fact-project.org/Checklist/)
+  2. If there was an exception during automatic shutdown, restarting Main.js sometimes does not help very much. Many experts are awake at this moment, so simply call them. If you want to deal with the situation yourself, you can try do do some [manual interventions](ManualIntervention.md)
 
   3. Stop the shifthelper, i.e. Ctrl-C in the shell where it is running.
   4. [Stop Main.js](ManualIntervention.md#stop-any-running-script)
