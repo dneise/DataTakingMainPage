@@ -1,13 +1,10 @@
 # FACT - Data Taking Manual
 
+ First Time? Ask your nearest expert for a computer account in La Palma.
+ 
  Print the [list of important phone numbers](https://trac.fact-project.org/wiki/Protected/ContactInfo).
  
-
-## Before first shift:
-
-Ask your nearest expert for a computer account in La Palma.
-
-## On your shift:
+## Your Shift:
 
  * Begin well in advance (1h), so in case of problems, you can call an expert and fix stuff.
  * open
@@ -20,6 +17,24 @@ Ask your nearest expert for a computer account in La Palma.
   - [ ] Does [the lid](http://fact-project.org/cam/lidcam.php) look okay?
   - [ ] Is [the container temperature](http://fact-project.org/smartfact/index.html?sound#temperature) lower than 40°C?
  * Create a [new logbook thread](https://www.fact-project.org/logbook/newthread.php?fid=2)
+
+ * Start up the telescope
+  1. Toggle Drive
+  2. Unlock Drive
+  3. Start Main.js 
+ 
+ * Observe ...
+ * Shutdown
+
+  1. After successful automatic shutdown, simply shut off Main.js and fill out [the Checklist](http://fact-project.org/Checklist/)
+
+  2. If there was an exception during automatic shutdown, restarting Main.js sometimes does not help very much. Many experts are awake at this moment, so simply call them. If you want to deal with the situation yourself, you can try:
+
+   * Park manually (drive must be powered and unlocked for this)
+   * Close lid again (maybe open and close)
+   * if parked, but the drive is not off, just toggle drive again.
+   * then fill [the Checklist](http://fact-project.org/Checklist/)
+
  
 ## In case of problems - No Problems
 
@@ -42,20 +57,3 @@ Ask your nearest expert for a computer account in La Palma.
  * If you cannot park: call an expert.
 
 
-## Startup via SmartFact
-
- 1. Toggle Drive
- 2. Unlock Drive
- 3. Start Main.js 
-
-
-## Stop via SmartFact
-
-1. After successful automatic shutdown, simply shut off Main.js and fill out [the Checklist](http://fact-project.org/Checklist/)
-
-2. If there was an exception during automatic shutdown, restarting Main.js sometimes does not help very much. Many experts are awake at this moment, so simply call them. If you want to deal with the situation yourself, you can try:
-
-  * Park manually (drive must be powered and unlocked for this)
-  * Close lid again (maybe open and close)
-  * if parked, but the drive is not off, just toggle drive again.
-  * then fill [the Checklist](http://fact-project.org/Checklist/)
