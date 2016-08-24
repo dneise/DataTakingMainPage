@@ -55,4 +55,4 @@ The automatic control software `Main.js` knows that `Incosistent` equals `Closed
  First an foremost. You are a shifter, not an expert, so in case the automatic procedures fail
  and there is a problem, you might not be able to solve it.
 
- If the Main.js script throws an exception and stops ... note down the trace back and restart Main.js. Do not do this crazily often, if restarting does not help: [park the telescope](ManualIntervention.md) and go to bed.
+ If the Main.js script throws an exception and stops ... note down the trace back and [restart Main.js](ManualIntervention.md#start-mainjs). Do not do this crazily often, if restarting does not help: [park the telescope](ManualIntervention.md) and go to bed.
