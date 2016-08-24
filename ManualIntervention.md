@@ -50,5 +50,5 @@ No problem.
 
 # Stop any running script
 
-You can stop any currently running script by pressing the little white `X` on [any smart fact page](http://fact-project.org/smartfact/index.html).
+You can stop any currently running script by pressing the little white X ![the little white X](smartfact_lower_right_corner.png) on [any smart fact page](http://fact-project.org/smartfact/index.html).
 You can check if a script is running by asserting that `Dim Control` appears `Idle` on the [status page](http://fact-project.org/smartfact/index.html?#status)
