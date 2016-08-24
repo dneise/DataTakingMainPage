@@ -51,7 +51,7 @@ No problem.
 # Start Main.js
 
 You can only start a script, when currently no script is running, see [Stop any running script](ManualIntervention.md#stop-any-running-script).
-To start Main.js go [here](http://fact-project.org/smartfact/index.html?#control-main) and click on the [tiny little play button `>`](smartfact_lower_right_corner_play.png).
+To start Main.js go [here](http://fact-project.org/smartfact/index.html?#control-main) and click on the ![tiny little play button `>`](smartfact_lower_right_corner_play.png).
 
 
 # Stop any running script
