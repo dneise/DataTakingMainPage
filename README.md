@@ -43,7 +43,5 @@
 
  First an foremost. You are a shifter, not an expert, so in case the automatic procedures fail
  and there is a problem, you might not be able to solve it.
- If you can't resume data taking, then [park the telescope](https://github.com/404) and go to bed.
- If you can't park, call an expert.
 
- If the Main.js script throws an exception and stops ... note down the trace back and restart Main.js. Do not do this crazily often, if restarting does not help: park and go to bed
+ If the Main.js script throws an exception and stops ... note down the trace back and restart Main.js. Do not do this crazily often, if restarting does not help: [park the telescope](ManualIntervention.md) and go to bed.
